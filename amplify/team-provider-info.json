@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-paymentredirect-dev-32313-authRole",
+      "UnauthRoleArn": "arn:aws:iam::813247532050:role/amplify-paymentredirect-dev-32313-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::813247532050:role/amplify-paymentredirect-dev-32313-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-paymentredirect-dev-32313-deployment",
+      "UnauthRoleName": "amplify-paymentredirect-dev-32313-unauthRole",
+      "StackName": "amplify-paymentredirect-dev-32313",
+      "StackId": "arn:aws:cloudformation:eu-west-1:813247532050:stack/amplify-paymentredirect-dev-32313/96f66910-4ef4-11eb-b35e-02319f3c3249",
+      "AmplifyAppId": "d3lscq60ghn8c9"
+    }
+  }
+}
