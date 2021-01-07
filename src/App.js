@@ -3,8 +3,9 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import queryString from "query-string";
 import { loadStripe } from "@stripe/stripe-js";
-
-const stripePromise = loadStripe("STRIPE_PUBLIC_KEY");
+const { STRIPE_PUBLISH_KEY ='pk_test_fjrkGyrczD1jEcSTNwkwQOKo'} =process.env
+console.log("ENV_KEYS=====>",STRIPE_PUBLISH_KEY);
+const stripePromise = loadStripe(STRIPE_PUBLISH_KEY);
 
 // Showing null, because we will show the result in the app and not on the web
 function Success() {
