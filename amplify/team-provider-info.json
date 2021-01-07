@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-paymentredirect-dev-184738-authRole",
-      "UnauthRoleArn": "arn:aws:iam::813247532050:role/amplify-paymentredirect-dev-184738-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::813247532050:role/amplify-paymentredirect-dev-184738-authRole",
-      "Region": "eu-west-1",
-      "DeploymentBucketName": "amplify-paymentredirect-dev-184738-deployment",
-      "UnauthRoleName": "amplify-paymentredirect-dev-184738-unauthRole",
-      "StackName": "amplify-paymentredirect-dev-184738",
-      "StackId": "arn:aws:cloudformation:eu-west-1:813247532050:stack/amplify-paymentredirect-dev-184738/0fbdfe70-5108-11eb-96df-0a1a640dc769",
-      "AmplifyAppId": "dcjt36vv30fst"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-paymentredirect-dev-184738-authRole",
+            "UnauthRoleArn": "arn:aws:iam::813247532050:role/amplify-paymentredirect-dev-184738-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::813247532050:role/amplify-paymentredirect-dev-184738-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-paymentredirect-dev-184738-deployment",
+            "UnauthRoleName": "amplify-paymentredirect-dev-184738-unauthRole",
+            "StackName": "amplify-paymentredirect-dev-184738",
+            "StackId": "arn:aws:cloudformation:eu-west-1:813247532050:stack/amplify-paymentredirect-dev-184738/0fbdfe70-5108-11eb-96df-0a1a640dc769",
+            "AmplifyAppId": "dcjt36vv30fst"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dcjt36vv30fst",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
